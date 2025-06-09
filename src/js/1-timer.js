@@ -64,6 +64,8 @@ function countSeconds() {
 
     if (msDiff <= 0) {
         clearInterval(intervalId);
+        dateCatcher.disabled = false;
+        //lalala
         return;
     }
 
